@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box; /*allows margin padding*/
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  line-height: 2em;
+  padding: 5vh 0 0 0;
+  color: #3c3c3c;
+}
+
+.myhr hr {
+  width: 0.5px;
+  color: black;
+  border: 1px solid #d1d1d1;
+}
+
+h3 {
+  font-size: 33px;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 27px;
+  color: #343434;
+}
+
+.navbar {
+  position: relative;
+  left: 35%;
+  width: 53%;
+}
+
+.log img {
+  width: 250px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  padding: 0 100px 0 100px;
+}
+
+.unorder {
+  display: flex;
+  padding-top: 10px;
+  background-color: rgb(63, 63, 63);
+}
+
+.unorder li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  margin: 0 10px 0 10px;
+}
+
+.unorder a:hover {
+  color: #dbdbdb;
+  transition: 2s;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+.sls {
+  display: flex;
+  justify-content: center;
+}
+
+.sls img {
+  width: 70vw;
+  box-shadow: 0px 0px 10px #c4c4c4;
+}
+
+.caption {
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.cont-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 50px;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.sec-2 img {
+  width: 30vw;
+  box-shadow: 0px 0px 15px #c4c4c4;
+}
+
+.des-blk {
+  width: 40%;
+}
+
+.des {
+  padding: 12% 0 0 35%;
+}
+
+.cont-2 {
+  display: flex;
+  background-color: #e3e3e3;
+  padding: 100px 50px;
+}
+
+.des-2 {
+  padding: 10% 25%;
+}
+
+.col-img img {
+  max-width: -webkit-fill-available;
+  opacity: 80%;
+  display: flex;
+}
+
+.sec-3 {
+  text-align: center;
+}
+.cont-3g {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f9f9f9;
+}
+
+.cont-3g img {
+  max-width: 30vw;
+  box-shadow: 0px 0px 10px #c4c4c4;
+}
+
+.cont-flex-item {
+  padding: 90px 90px;
+}
+
+.pro-cat {
+  padding: 100px;
+}
+
+.cont-6 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ededed;
+  padding: 10vh;
+}
+
+.form {
+  padding: 30px 0 0 0;
+}
+
+.inp {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  margin: 4px 0 10px 0;
+}
+
+.inp-t {
+  padding: 10px;
+  width: 50%;
+  border: none;
+  margin-top: 4px;
+}
+
+label {
+  padding: 0 0;
+}
+
+.submit {
+  padding: 8px;
+  width: 42%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid grey;
+  background: grey;
+  margin-left: 6%;
+}
+
+.submit:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+.sec-8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2c2c2c;
+  height: 40px;
+  align-items: center;
+}
+
+.sec-8 a,
+h5 {
+  color: #cccccc;
+}
+
+.log-fot img {
+  width: 12vw;
+}
+.sec-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #3c3c3c;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.fot-unorder li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.border-foot {
+  border-left: 1px solid white;
+  padding: 0 60px;
+}
+
+.fot-h h4,
+.fot-h p {
+  color: white;
+  padding: 0 0;
+}
